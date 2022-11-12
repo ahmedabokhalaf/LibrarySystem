@@ -1,0 +1,47 @@
+﻿@model UserLoginModel
+
+<section class="vh-100">
+    <div class="container-fluid h-custom" style="padding-top: 50px">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-4">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                     class="img-fluid" alt="Sample image">
+            </div>
+            <div class="col-md-8">
+                <div asp-validation-summary="ModelOnly" class="field-validation-error"></div>
+                <form asp-action="Login" asp-controller="User" method="post">
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input asp-for="Username" class="form-control form-control-lg"
+                               placeholder="Enter your Username" />
+                        <span asp-validation-for="Username"></span>
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="form-outline mb-3">
+                        <input asp-for="Password" class="form-control form-control-lg"
+                               placeholder="Enter your Password" />
+                        <span asp-validation-for="Password"></span>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="form-check mb-0">
+                        <label asp-for="RememberMe"></label>
+                        <input asp-for="RememberMe" />
+                        <span asp-validation-for="RememberMe"></span>
+                    </div>
+                    <input type="hidden" asp-for="ReturnUrl" />
+                    <div class="text-center text-lg-start mt-4 pt-2">
+                        <input type="submit" class="btn btn-primary btn-lg" value="Login"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"/>
+                        <p class="small fw-bold mt-2 pt-1 mb-0">
+                            Don't have an account? 
+                            <a asp-action="Register" asp-controller="User"
+                                                      class="link-danger">Register</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

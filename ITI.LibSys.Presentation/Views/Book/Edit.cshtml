@@ -1,0 +1,39 @@
+﻿@model BookModel
+
+<div class="row col-md-4">
+    <form method="post" asp-action="Edit" asp-controller="Book" asp-route-id="@Model.Id" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="Id" class="control-label">Book Id</label>
+            <input asp-for="Id" class="form-control" value="@Model.Id" readonly/>
+        </div>
+        <div class="form-group">
+            <label asp-for="Title" class="control-label">Book Title</label>
+            <input asp-for="Title" class="form-control" value="@Model.Title" />
+            <span asp-validation-for="Title"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="AuthorID" class="control-label">Book Author</label>
+            <select asp-for="AuthorID" class="form-select" aria-label="Default select example" asp-items="@ViewBag.Authors">
+                    <option selected></option>
+            </select>
+            <span asp-validation-for="AuthorID"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description" class="control-label">Book Discription</label>
+            <input asp-for="Description" class="form-control" readonly value="@Model.Description" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Images" class="control-label">Book Images</label>
+            <input asp-for="Images" class="form-control" multiple />
+            <span asp-validation-for="Images"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-info" />
+            <a asp-action="Index" asp-controller="Book" class="btn btn-outline-info">Back to List</a>
+        </div>
+    </form>
+</div>
+
+@section LeftPanel{
+    <h1 style="color: greenyellow">Book Modification</h1>
+}

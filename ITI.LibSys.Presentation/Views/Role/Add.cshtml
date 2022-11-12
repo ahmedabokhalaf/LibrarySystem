@@ -1,0 +1,11 @@
+﻿@model RoleModel
+<form class="form-group" asp-action="Add" asp-controller="Role" method="post">
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div>
+        <input type="submit" value="Add Role" class="btn btn-primary" />
+    </div>
+</form>

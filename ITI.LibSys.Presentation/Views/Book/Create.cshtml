@@ -1,0 +1,55 @@
+﻿@model BookModel
+<div class="alert alert-success" role="alert" style="display:none" id="alert">
+    <h4 class="alert-heading">Well done!</h4>
+    <p>Aww yeah, you successfully created new book.</p>
+    <hr>
+    <p class="mb-0">
+        <a asp-action="Index" asp-controller="Book">Click Here</a>
+        for Details
+    </p>
+</div>
+<div class="row">
+    <div class="col-md-8" >
+        <form method="post" asp-controller="Book" asp-action="Create" enctype="multipart/form-data" 
+        data-ajax="true" data-ajax-complete="BookCreated" data-ajax-loading="#loader" >
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AuthorID" class="control-label"></label>
+                <select asp-for="AuthorID" class="form-select" aria-label="Default select example" asp-items="ViewBag.Authors">
+                    <option selected>-- Select Author of This Book --</option>
+                </select>
+                <span asp-validation-for="AuthorID"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Description"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Images" class="control-label"></label>
+                <input asp-for="Images" class="form-control" multiple/>
+                <span asp-validation-for="Images"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-info" />
+                <a asp-controller="Book" asp-action="Index" class="btn btn-outline-info">Back to List</a>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-4" style="text-align:center; padding:100px">
+        <img src="~/Content/Images/createLoader.gif" id="loader" style="width:200px;height:200px;display:none"/>
+    </div>
+</div>
+<script>
+    function BookCreated(data){
+        document.getElementById("alert").style.display = "block";
+    }
+</script>
+@section LeftPanel{
+    <h1 style="color: greenyellow">New Book Creation</h1>
+}

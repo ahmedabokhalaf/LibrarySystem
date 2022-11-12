@@ -1,0 +1,14 @@
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\bin\Release\net6.0\ITI.LibSys.Models.deps.json
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\bin\Release\net6.0\ITI.LibSys.Models.runtimeconfig.json
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\bin\Release\net6.0\ITI.LibSys.Models.dll
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\bin\Release\net6.0\ITI.LibSys.Models.pdb
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\obj\Release\net6.0\ITI.LibSys.Models.csproj.AssemblyReference.cache
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\obj\Release\net6.0\ITI.LibSys.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\obj\Release\net6.0\ITI.LibSys.Models.AssemblyInfoInputs.cache
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\obj\Release\net6.0\ITI.LibSys.Models.AssemblyInfo.cs
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\obj\Release\net6.0\ITI.LibSys.Models.csproj.CoreCompileInputs.cache
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\obj\Release\net6.0\ITI.LibSys.Models.dll
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\obj\Release\net6.0\refint\ITI.LibSys.Models.dll
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\obj\Release\net6.0\ITI.LibSys.Models.pdb
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\obj\Release\net6.0\ITI.LibSys.Models.genruntimeconfig.cache
+D:\ITI3Months\ASP.NET\Labs\FromDay4ToEnd\ITI.LibSys.Models\obj\Release\net6.0\ref\ITI.LibSys.Models.dll

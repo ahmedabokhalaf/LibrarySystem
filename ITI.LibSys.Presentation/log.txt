@@ -1,0 +1,95 @@
+Date-Time: 27-Oct-22 2:18:30 PM
+RequestPath: /BookStatus: Before Executing
+User Data: System.Security.Claims.ClaimsIdentity
+-------------------------------------------------------------------------Date-Time: 27-Oct-22 2:18:30 PM
+RequestPath: /BookStatus: After Executing
+User Data: System.Security.Claims.ClaimsIdentity
+-------------------------------------------------------------------------Date-Time: 27-Oct-22 2:21:45 PM
+RequestPath: /BookStatus: Before Executing
+User Data: System.Security.Claims.ClaimsIdentity
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:21:51 PM
+RequestPath: /BookStatus: After Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:24:16 PM
+RequestPath: /BookStatus: Before Executing
+User Data: System.Security.Claims.ClaimsIdentity
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:24:24 PM
+RequestPath: /BookStatus: After Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:24:36 PM
+RequestPath: /BookStatus: Before Executing
+User Data: System.Security.Claims.ClaimsIdentity
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:24:36 PM
+RequestPath: /BookStatus: After Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:24:38 PM
+RequestPath: /BookStatus: Before Executing
+User Data: System.Security.Claims.ClaimsIdentity
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:24:39 PM
+RequestPath: /BookStatus: After Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:24:58 PM
+RequestPath: /BookStatus: Before Executing
+User Data: System.Security.Claims.ClaimsIdentity
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:24:58 PM
+RequestPath: /BookStatus: After Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:25:31 PM
+RequestPath: /BookStatus: Before Executing
+User Data: System.Security.Claims.ClaimsIdentity
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:25:31 PM
+RequestPath: /BookStatus: After Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:25:48 PM
+RequestPath: /BookStatus: Before Executing
+User Data: System.Security.Claims.ClaimsIdentity
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:25:48 PM
+RequestPath: /BookStatus: After Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:26:28 PM
+RequestPath: /BookStatus: Before Executing
+User Data: System.Security.Claims.ClaimsIdentity
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:26:28 PM
+RequestPath: /BookStatus: After Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:41:25 PM
+RequestPath: /Book
+Status: Before Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:41:26 PM
+RequestPath: /Book
+Status: After Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:41:48 PM
+RequestPath: /Book
+Status: Before Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:47:22 PM
+RequestPath: /Book
+Status: Before Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------
+Date-Time: 27-Oct-22 2:47:30 PM
+RequestPath: /Book
+Status: After Executing
+User Name: a7med5alaf
+-------------------------------------------------------------------------

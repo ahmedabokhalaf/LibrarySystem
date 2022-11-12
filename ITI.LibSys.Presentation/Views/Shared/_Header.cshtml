@@ -1,0 +1,51 @@
+﻿
+@inject SignInManager<User> UserManager;
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" asp-action="Index" asp-controller="Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="About" asp-controller="Home">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="Contact" asp-controller="Home">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="Index" asp-controller="Book">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-action="ChangePassword" asp-controller="User">Change Password</a>
+                </li>
+                @if(UserManager.IsSignedIn(User) && User.IsInRole("Viewer")){
+                    <li class="nav-item">
+                        <span class="navbar-text">@User.Identity.Name | </span>
+                        <a class="nav-link" asp-action="LogOut" asp-controller="User" style="display:inline">Log Out</a>
+                    </li>
+                }
+                else if (UserManager.IsSignedIn(User) && User.IsInRole("Editor")){
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Add" asp-controller="Role">Add Role</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="AddEditor" asp-controller="Role">Add User</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="navbar-text">@User.Identity.Name | </span>
+                        <a class="nav-link" asp-action="LogOut" asp-controller="User" style="display:inline">Log Out</a>
+                    </li>
+                }
+                else{
+                    <li class="nav-item">
+                        <a class="nav-link" asp-action="Register" asp-controller="User">Register As Viewer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="User" asp-action="Login">Login</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,13 @@
+﻿[
+  {
+    "inputFiles": [
+      "Content/lib/css/PagedList.css",
+      "Content/lib/css/StyleSheet.css"
+    ],
+    "outputFileName": "Content/lib/css/StyleShared.css",
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  }
+]
